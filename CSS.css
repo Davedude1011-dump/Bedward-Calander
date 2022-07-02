@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("images/5183000.jpg");
+    background-size: 100%;
+}
+
+.frosted {
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    background-color: rgba(255, 255, 255, 0.244);
+    backdrop-filter: blur(2px);
+}
+.frosted:hover {
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    background-color: rgba(255, 255, 255, 0.504);
+    backdrop-filter: blur(5px);
+}
+.boxTitle {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 2%;
+    font-family: Oswald;
+    white-space: nowrap;
+}
+.bigTitle {
+    font-size: 50px;
+}
+.smallTitle {
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+.boxDates {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 25%;
+    font-family: Oswald;
+    white-space: nowrap;
+    font-size: 40px;
+}
+.boxDatesOther {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Oswald;
+    white-space: nowrap;
+    font-size: 30px;
+}
+
+.title {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: Oswald;
+    white-space: nowrap;
+    font-size: 60px;
+}
+
+.currentOuter {
+    position: absolute;
+    width: 40%;
+    height: 40vh;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+}
+
+.lastOuter {
+    position: absolute;
+    width: 28%;
+    height: 25vh;
+    left: 1%;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 5px;
+}
+
+.nextOuter {
+    position: absolute;
+    width: 28%;
+    height: 25vh;
+    right: 1%;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 5px;
+}
+
+@media screen and (orientation: portrait) {
+    .boxDates {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        top: 25%;
+        font-family: Oswald;
+        white-space: nowrap;
+        font-size: 30px;
+    }
+    .boxDatesOther {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        font-family: Oswald;
+        white-space: nowrap;
+        font-size: 20px;
+    }
+
+    .currentOuter {
+        position: absolute;
+        width: 90%;
+        height: 15vh;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 5px;
+    }
+    
+    .lastOuter {
+        position: absolute;
+        width: 60%;
+        height: 10vh;
+        left: 50%;
+        top: 35%;
+        transform: translate(-50%, -50%);
+        border-radius: 5px;
+    }
+    
+    .nextOuter {
+        position: absolute;
+        width: 60%;
+        height: 10vh;
+        left: 50%;
+        top: 65%;
+        transform: translate(-50%, -50%);
+        border-radius: 5px;
+    }
+
+    body {
+        background-image: url("images/e9d2b63c0575d8861964bcad07d71b69.jpg");
+    }
+}
